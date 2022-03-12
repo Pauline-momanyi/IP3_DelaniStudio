@@ -21,4 +21,12 @@
     margin-top: 10px;
     text-align: center;
 }
+.wrapper3{
+    background-image: url("./assets/backgrounds/s_image.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    padding: 120px 0px;
 
+}
