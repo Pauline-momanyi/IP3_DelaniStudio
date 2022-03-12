@@ -6,9 +6,7 @@
     text-align: center;
     color: white; 
     background-size: cover; 
-    background-position: center center;  
-
-    
+    background-position: center center;    
 }
 .logo{
     margin-top: 33vh;
@@ -17,5 +15,10 @@
 .mouseclick{
     margin-top: 155px;
     margin-bottom: 20px;
+}
+
+.wrapper2{
+    margin-top: 10px;
+    text-align: center;
 }
 
