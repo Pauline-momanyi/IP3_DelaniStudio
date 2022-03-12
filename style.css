@@ -1,3 +1,9 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
 .wrapper{
     background-image: url("./assets/backgrounds/h_img.jpg");
     /* background-size: 100%; */
@@ -44,7 +50,7 @@
     padding-top: 30px;
 }
 .portfolio1, .portfolio2{
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 .work4, .work3, .work2, .work1, .work5, .work6, .work7, .work8{
