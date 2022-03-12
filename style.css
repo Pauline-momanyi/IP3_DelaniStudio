@@ -39,12 +39,13 @@ body{
 }
 .wrapper4{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 .wrapperin4{
-    margin-top: 10px;
+    margin-top: 25px;
     display: flex;
     justify-content: space-around;
+    
 }
 .wrapper5{
     text-align: center;
@@ -116,3 +117,17 @@ footer{
 footer p{
     text-align: center;
 }
+
+
+/* with jQuery */
+#pdesign, #pdev, #pproduct{
+    display: none;
+    width: 85%;
+    margin-left: 10px;
+    font-size: small;    
+}
+.alldesign, .alldev, .allproduct{
+    border: 1px solid red;
+    width: 30%;
+}
+
