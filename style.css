@@ -51,8 +51,36 @@
     width: 20%;
     margin: 5px;
 }
+.wrapper6{
+    background-image: url("./assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+#myForm{
+  align-items: centre;
+}
+form h4{
+    text-align: center;
+    color: white;
+}
+form textarea{
+    width: 78%;
+    text-align: center;
+}
+form input{
+    width: 40%;
+    /* text-align: center; */
+}
+div.inputs{
+    display: flex;
+    
+    /* justify-content: space-between; */
+}
+
 footer{
     width: 70%;
     margin: auto;
     text-align: center;
+    margin: 20px 0px;
 }
+
