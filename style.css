@@ -30,3 +30,11 @@
     padding: 120px 0px;
 
 }
+.wrapper4{
+    text-align: center;
+    margin-top: 15px;
+}
+.wrapperin4{
+    display: flex;
+    justify-content: space-around;
+}
