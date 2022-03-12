@@ -1,27 +1,31 @@
 $(document).ready(function(){
     $("#design").click(function(){
-       $("#pdesign").toggle(); 
+       $(this).hide();
+       $("#pdesign").show(); 
     })
+    $("#pdesign").click(function(){
+      $(this).hide();
+      $("#design").show(); 
+   })
    
      $("#dev").click(function(){
         $(this).hide();
         $("#pdev").show(); 
      })
      $("#pdev").click(function(){
-         $(this).hide();
-         $("#dev").show(); 
-      })
-
+      $(this).hide();
+      $("#dev").show(); 
+   })
+     
       $("#product").click(function(){
-        $(this).hide();
-        $("#pproduct").show(); 
+         $(this).hide();
+         $("#pproduct").show(); 
      })
      $("#pproduct").click(function(){
-         $(this).hide();
-         $("#product").show(); 
-      })
-
-
+      $(this).hide();
+      $("#product").show(); 
+  })
+   
 
 
 })
