@@ -35,6 +35,24 @@
     margin-top: 15px;
 }
 .wrapperin4{
+    margin-top: 10px;
     display: flex;
     justify-content: space-around;
+}
+.wrapper5{
+    text-align: center;
+    padding-top: 30px;
+}
+.portfolio1, .portfolio2{
+    width: 80%;
+    margin: auto;
+}
+.work4, .work3, .work2, .work1, .work5, .work6, .work7, .work8{
+    width: 20%;
+    margin: 5px;
+}
+footer{
+    width: 70%;
+    margin: auto;
+    text-align: center;
 }
