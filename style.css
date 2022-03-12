@@ -55,32 +55,57 @@
     background-image: url("./assets/backgrounds/c_image.jpg");
     background-size: cover;
     background-position: center center;
+    padding-top: 20px;
+    
+    
 }
-#myForm{
-  align-items: centre;
-}
+
 form h4{
     text-align: center;
     color: white;
 }
 form textarea{
-    width: 78%;
-    text-align: center;
+    width: 60%;
+    margin: auto;
+    background: none;
+    border: 1px solid white;
+    margin-bottom: 50px;
+    
 }
 form input{
-    width: 40%;
-    /* text-align: center; */
+    width: 30%;
+    border: 1px solid white;
+    outline: none;
+    background: none;
+    color: white;
+    margin-bottom: 5px;
+    margin-right: 15px;
 }
+
 div.inputs{
-    display: flex;
-    
-    /* justify-content: space-between; */
+    display: flex; 
+    justify-content: center;  
+   
+}
+.textin{
+    text-align: center;
+}
+::placeholder{
+    color: white;
+    opacity: 1;
 }
 
 footer{
     width: 70%;
     margin: auto;
+    
+}
+.socialIcons{
+    margin-top: 25px;
+    margin-bottom: 15px;
     text-align: center;
-    margin: 20px 0px;
 }
 
+footer p{
+    text-align: center;
+}
