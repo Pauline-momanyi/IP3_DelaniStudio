@@ -61,16 +61,23 @@ body{
 
     /* position: relative; */
 }
-.works4, .works3, .works2, .works1, .works5, .works6, .works7, .works8{
+.works{
     width: 17%;
     margin: 10px;
     border: 1px solid red;
     object-fit: cover;
     object-position: center center;
+    position: relative;
 }
 
-.work4, .work3, .work2, .work1, .work5, .work6, .work7, .work8{
+.work{
     width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    background: rgba(white, white, white, 0.5);
 }
 
 .wrapper6{
