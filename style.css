@@ -64,7 +64,6 @@ body{
 .works{
     width: 17%;
     margin: 10px;
-    border: 1px solid red;
     object-fit: cover;
     object-position: center center;
     position: relative;
@@ -77,7 +76,14 @@ body{
 .overlay{
     position: absolute;
     top: 0;
-    background: rgba(white, white, white, 0.5);
+    font-weight: bold;
+    color: black;
+    display: none;
+    width: 90%;
+    height: 90%;
+    margin: 4px;
+    background-color: rgba(255,255,255,0.7);
+
 }
 
 .wrapper6{

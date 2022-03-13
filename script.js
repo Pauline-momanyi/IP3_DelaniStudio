@@ -1,4 +1,5 @@
 $(document).ready(function(){
+   //what we do
     $("#design").click(function(){
        $(this).hide();
        $("#pdesign").show(); 
@@ -25,6 +26,15 @@ $(document).ready(function(){
       $(this).hide();
       $("#product").show(); 
   })
+
+  //portfolio
+   $(".work").hover(function(){
+      var images = $(this).attr('data-images');
+      //alert (images);
+     //$(".overlay").toggle();
+     $('#'+images).toggle();
+   })
+
 
   $("#myForm").submit(function(){
      return formVal();
@@ -68,9 +78,7 @@ $(document).ready(function(){
         }
      }
 
-
-  })
-   
+  })   
 
 
 })
