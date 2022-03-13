@@ -4,21 +4,20 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-
 .wrapper{
     background-image: url("./assets/backgrounds/h_img.jpg");
-    /* background-size: 100%; */
     background-repeat: no-repeat;
-    /* height: 60%; */
     text-align: center;
     color: white; 
     background-size: cover; 
     background-position: center center;    
 }
+
 .logo{
     margin-top: 33vh;
 
 }
+
 .mouseclick{
     margin-top: 155px;
     margin-bottom: 20px;
@@ -28,6 +27,7 @@ body{
     margin-top: 10px;
     text-align: center;
 }
+
 .wrapper3{
     background-image: url("./assets/backgrounds/s_image.jpg");
     background-size: cover;
@@ -35,47 +35,49 @@ body{
     color: white;
     text-align: center;
     padding: 120px 0px;
-
 }
+
 .wrapper4{
     text-align: center;
     margin-top: 30px;
 }
+
 .wrapperin4{
     margin-top: 25px;
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around;    
 }
+
 .wrapper5{
     text-align: center;
     padding-top: 30px;
     margin-bottom: 15px;
 }
+
 .portfolio1, .portfolio2{
-    width: 100%;
     margin: auto;
+    display: flex;
+    justify-content: center;
+
     /* position: relative; */
 }
-/* .bailey{
-    position: absolute;
-    right: 21vw;
-    color: white;
-    bottom: 22vh;
-    border: 1px solid white;
-    /* padding-bottom: 10px;
-} */
-.work4, .work3, .work2, .work1, .work5, .work6, .work7, .work8{
-    width: 20%;
-    margin: 5px;
+.works4, .works3, .works2, .works1, .works5, .works6, .works7, .works8{
+    width: 17%;
+    margin: 10px;
+    border: 1px solid red;
+    object-fit: cover;
+    object-position: center center;
 }
+
+.work4, .work3, .work2, .work1, .work5, .work6, .work7, .work8{
+    width: 100%;
+}
+
 .wrapper6{
     background-image: url("./assets/backgrounds/c_image.jpg");
     background-size: cover;
     background-position: center center;
-    padding-top: 20px;
-    
-    
+    padding-top: 20px;      
 }
 
 form h4{
@@ -86,10 +88,9 @@ form textarea{
     width: 60%;
     margin: auto;
     background: none;
-    border: 1px solid white;
-    /* margin-bottom: 50px; */
-    
+    border: 1px solid white;    
 }
+
 form input{
     width: 30%;
     border: 1px solid white;
@@ -111,22 +112,14 @@ div.inputs{
 .sbmtbtn{
     text-align: center;
     padding-top: 5px;
-    padding-bottom: 25px;
-    
-    
+    padding-bottom: 25px;     
 }
-
 
 ::placeholder{
     color: white;
     opacity: 1;
 }
 
-footer{
-    width: 70%;
-    margin: auto;
-    
-}
 .socialIcons{
     margin-top: 25px;
     margin-bottom: 15px;
