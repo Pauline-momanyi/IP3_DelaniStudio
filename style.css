@@ -50,11 +50,21 @@ body{
 .wrapper5{
     text-align: center;
     padding-top: 30px;
+    margin-bottom: 15px;
 }
 .portfolio1, .portfolio2{
     width: 100%;
     margin: auto;
+    /* position: relative; */
 }
+/* .bailey{
+    position: absolute;
+    right: 21vw;
+    color: white;
+    bottom: 22vh;
+    border: 1px solid white;
+    /* padding-bottom: 10px;
+} */
 .work4, .work3, .work2, .work1, .work5, .work6, .work7, .work8{
     width: 20%;
     margin: 5px;
@@ -77,7 +87,7 @@ form textarea{
     margin: auto;
     background: none;
     border: 1px solid white;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     
 }
 form input{
@@ -98,6 +108,15 @@ div.inputs{
 .textin{
     text-align: center;
 }
+.sbmtbtn{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    
+    
+}
+
+
 ::placeholder{
     color: white;
     opacity: 1;
@@ -122,12 +141,9 @@ footer p{
 /* with jQuery */
 #pdesign, #pdev, #pproduct{
     display: none;
-    width: 85%;
-    margin-left: 10px;
     font-size: small;    
 }
 .alldesign, .alldev, .allproduct{
-    border: 1px solid red;
     width: 30%;
 }
 
