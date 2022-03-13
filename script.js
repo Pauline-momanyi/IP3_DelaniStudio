@@ -30,8 +30,6 @@ $(document).ready(function(){
   //portfolio
    $(".work").hover(function(){
       var images = $(this).attr('data-images');
-      //alert (images);
-     //$(".overlay").toggle();
      $('#'+images).toggle();
    })
 
@@ -59,7 +57,6 @@ $(document).ready(function(){
 
         //validating email
         var regex2 = /^([A-Za-z0-9\!\.\-\]+)@([A-Za-z0-9]+)\.([A-Za-z0-9]+)(\.[A-Za-z0-9]+)?$/
-        ///^([_\-\.%0-9a-zA-Z]+)@([_\-\.0-9a-zA-Z]+)\.([a-zA-Z]{2,10})(\.[a-zA-Z]{2,7})?$/
         if(email === ""){
            alert ("Please input your email");
            return false;
